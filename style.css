@@ -1,0 +1,539 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ .main-cont{
+ /*	position: relative;
+ 	height: 120px;*/
+ 	transition: .5s;
+ }
+.navBar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	
+}
+.img-cont img{
+	width: 50px;
+	margin-left: 80px;
+}
+.navLinks{
+	display: flex;
+
+}
+
+.navLinks a{
+	color: #689C97;
+	font-size: 20px;
+	margin-right: 20px;
+	padding:  6px 10px;
+}
+
+.navLinks>div img:hover,
+.openbtn img:hover{
+	cursor: pointer;
+}
+.buyNow{
+	padding:  6px 20px !important;
+	border:  1px solid #689C97;
+	border-radius: 8px;
+	margin: 0 !important;
+	margin: 0 40px !important;
+	transition: .5s;
+}
+
+.buyNow:hover{
+	background: #689C97;
+	color: #072A24;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.heroContain{
+	border:  2px double #94d82d;
+	box-shadow: 5px 5px 20px #94d82d;
+	margin-top: 15px;
+}
+.heroText{
+	display: flex;
+	justify-content: center;
+	align-items: center !important;
+	height: 490px;
+	color: #689C97;
+	text-align: center;
+}
+
+.heroText h1{
+	font-weight: bold;
+	color: #94d82d;
+	margin-bottom: 20px;
+}
+
+.heroText p{
+	font-size: 23px;
+	text-align: justify;
+	margin: 0 5%;
+}
+
+.heroimgs{
+	margin-top: 10%;
+}
+.heroimgs img{
+	width: 50px;
+	margin: 5px;
+}
+
+.coinsCont{
+	margin-top: 10%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.coinsCont>div{
+	width: 255px;
+	margin: 10px;
+	border:  2px solid #7FB174;
+	text-align: center;
+	padding: 10px 20px;
+	background: inherit;
+	color: #7FB174;
+	font-size: 20px;
+	border-radius: 23px;
+	transition: .5s;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.coinsCont>div img{
+	width: 35px;
+}
+
+.coinsCont div:hover{
+	background: #689C97;
+	color: #072A24;
+	cursor: pointer;
+}
+
+.about h2,
+.roadmap h2,
+.tokenomics h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #94d82d;
+	margin: 25px 0;
+	text-align: center;
+}
+
+.aboutText{
+	flex-direction: column;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 40px;
+}
+
+.howcont{
+	display: flex;
+	margin: 0 8%;
+	padding: 10px;
+	background:  #94d82d12;
+	border: 2px solid #7FB174;
+	color: #7FB174;
+	border-radius: 20px 0;
+	margin-bottom: 18px;
+}
+
+.howcont1{
+	width: 12%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.howcont1 img{
+	width: 70%;
+}
+
+.howcont2{
+	padding: 0 20px;
+	width: 88%;
+}
+
+.howcont2 h2{
+	font-weight: 700;
+}
+
+.howcont2 p{
+	font-size: 18px;
+}
+
+.htb>h2{
+	color: #94d82d;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 5% 0;
+	/*border: 1px solid red;*/
+}
+
+.tokenomics {
+	margin-top: 5%;
+}
+.tokenomics>div {
+	/*background: white;*/
+	/*background: linear-gradient();*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tokenomics>div img{
+	/*width:;*/
+}
+
+.tokenomics div h3{
+	color: #689C97;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.tokenomics div p{
+	color: #7FB174;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.roadmap{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 0 8%;
+}
+
+.roadmap h2{
+	margin-bottom: 4%;
+}
+
+.roadmap>p{
+	margin: 3% 20%;
+	color: #689C97;
+	text-align: center;
+	font-size: 18px;
+}
+
+.col-md-4{
+	/*padding: 0 2%;*/
+}
+
+.phases h3{
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.phases div em{
+	color: #94d82d;
+	margin-right: 10px;
+	font-weight: 700;
+}
+.phases{
+	/*border:  2px solid #7FB174;*/
+	border:  2px solid #94d82d12;
+	border-top: 3px solid #7FB174;
+	border-radius: 10px;
+	color: #7FB174;
+	background: #94d82d12;
+	padding: 10px;
+	height: 400px;
+
+}
+
+.phase1List{
+	margin-top: 18%;
+}
+.activephase{
+	border-top: 3px solid #94d82d;
+	box-shadow: 1px 1px 20px #94d82d;
+}
+
+.phases div{
+	font-size: 18px;
+	margin-bottom: 15%;
+}
+
+.phases div>p{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+/*btns display none*/
+.openbtn,
+.betterimg,
+.close{
+	display: none;
+}
+
+footer{
+	text-align: center;
+	border-top: 2px solid #94d82d12;
+	padding: 20px 0;
+	color: #7FB174;
+	margin-top: 8%;
+	font-weight: 600;
+}
+
+
+.aboutText img{
+	display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.bigimg{
+		display: none;
+	}
+
+	.betterimg,
+	.close{
+		display: block;
+	}
+	.navBar{
+		padding: 15px 15%;
+		
+	}
+
+	.img-cont img{
+		width: 40px;
+		margin-left: 0;
+	}
+	.openbtn{
+		display: block;
+		color: white !important;
+	}
+
+	.close{
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.close:hover{
+		cursor: auto;
+	}
+
+	.navLinks{
+		position: absolute;
+		top: 0;
+		right: 0;
+		background: #072A24;
+		border-left: 1px solid #7FB174 ;
+		width: 80%;
+		height: 2000px;
+		padding-left: 20px;
+		z-index: 1;
+		display: none;
+	}
+
+	.dropdown{
+		display: block;
+	}
+	.navLinks a{
+		display: block;
+		text-decoration: none;
+	}
+
+	.navLinks a:hover{
+		color: #94d82d;
+	}
+	.buyNow{
+		width: 150px;
+		margin: 0 !important;
+		margin-top: 20px !important;
+	}
+
+	.buyNow:hover{
+		color: #072A24 !important;
+
+	}
+
+	.heroContain{
+		border:  none;
+		margin: 10% 10px 0 10px;
+	}
+
+
+	.heroText{
+		height: 100%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		/*padding: 20px 10px;*/
+	}
+
+	.heroFrogimg{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 10%;
+		margin: 20% 0;
+	}
+
+	.coinsCont{
+		padding: 0;
+		margin: 30% 10% 20% 10%;
+	}
+
+	.coinsCont>div{
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 10px ;
+		font-size: 18px;
+	}
+
+	.coinsCont>div img{
+		width: 25px;
+	}
+
+	.aboutText{
+		padding: 0 10%;
+		text-align: center;
+	}
+
+	.htb{
+		margin-top: 20%;
+	}
+
+	.htb>h2{
+		margin-bottom: 10%;
+	}
+	.howcont{
+		display: block;
+		margin: 0 10px;
+		padding: 25px 10px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.howcont1{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.howcont1 img{
+		width: 20%;
+	}
+
+	.howcont2{
+		padding: 0 20px;
+		width: 100%;
+	}
+
+	.tokenomics{
+		padding: 0 10px !important;
+	}
+	.tokenomics>div img{
+		width:90%;
+	}
+
+	.tokenomics div p{
+		font-size: 40px;
+		margin: 10px !important;
+	}
+	.roadmap{
+		margin-bottom: 20%;
+	}
+	.roadmap>p{
+		margin: 10% 10px;
+		
+	}
+
+	.phases{
+		margin-bottom: 20px;
+		height: auto;
+	}
+
+	.phase1List{
+		margin-top: 10%;
+	}
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+	.navLinks a{
+		font-size: 18px;
+		margin-right: 10px;
+		padding:  6px 8px;
+	}
+
+	.buyNow{
+		padding:  6px 20px !important;
+		border:  1px solid #689C97;
+		border-radius: 8px;
+		margin: 0 !important;
+		margin: 0 40px 0 10px !important;
+		transition: .5s;
+	}
+
+	.bigimg{
+		display: none;
+	}
+
+	.betterimg{
+		display: block;
+	}
+
+	.heroText{
+		height: 100%;
+	
+	}
+	.heroFrogimg{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 10%;
+		margin: 15% 0;
+	}
+
+	.heroFrogimg img{
+		width:  30% !important;
+	}
+
+	.coinsCont{
+		margin-bottom: 10%;
+	}
+
+	.aboutText{
+		padding: 0 10%;
+		text-align: center;
+	}
+
+	.aboutText img{
+		display: block;
+		width: 30% !important;
+		margin-bottom:  10%;
+	}
+
+	.htb{
+		margin-top: 10%;
+	}
+	.roadmap{
+		margin-bottom: 20%;
+	}
+	.roadmap>p{
+		margin: 10% 10px;
+		
+	}
+
+	.phases{
+		margin-bottom: 20px;
+		height: auto;
+		padding-left: 20px ;
+	}
+
+	.phase1List{
+		margin-top: 5%;
+	}
+}
